@@ -14,12 +14,7 @@ namespace Framework.Cms.Web.Mvc.DependencyInjection
     /// </summary>
     public class DependencyRegistrations : IRegisterDependencies
     {
-        #region Methods
-
-        /// <summary>
-        /// Registers the dependencies.
-        /// </summary>
-        public void RegisterDependencies()
+        public void RegisterDependencies(IServiceRegister serviceRegister)
         {
             IEnumerable<Type> MessageHandlers = TypeFactory.GetAllImplementations(typeof(IMessageHandler));
 
@@ -34,7 +29,5 @@ namespace Framework.Cms.Web.Mvc.DependencyInjection
                 }
             }
         }
-
-        #endregion Methods
     }
 }
