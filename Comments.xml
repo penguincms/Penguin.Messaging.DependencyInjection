@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>Penguin.Messaging.DependencyInjection.Local</name>
+        <name>Penguin.Messaging.DependencyInjection</name>
     </assembly>
     <members>
         <member name="T:Framework.Cms.Web.Mvc.DependencyInjection.DependencyRegistrations">
