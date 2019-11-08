@@ -1,3 +1,4 @@
+using Penguin.DependencyInjection.Abstractions.Enums;
 using Penguin.DependencyInjection.Abstractions.Interfaces;
 using Penguin.DependencyInjection.ServiceProviders;
 using Penguin.Messaging.Abstractions.Interfaces;
@@ -16,6 +17,7 @@ namespace Framework.Cms.Web.Mvc.DependencyInjection
     {
         public void RegisterDependencies(IServiceRegister serviceRegister)
         {
+
             IEnumerable<Type> MessageHandlers = TypeFactory.GetAllImplementations(typeof(IMessageHandler));
 
             MessageBus.SubscribeAll(MessageHandlers);
