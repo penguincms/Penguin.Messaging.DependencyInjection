@@ -9,7 +9,7 @@
     <RootNamespace>Penguin.Messaging.DependencyInjection</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Messaging.Core" Version="3.1.2-T9MJL4F" />
-    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.11-T9MJL4F" />
+    <PackageReference Include="Penguin.Messaging.Core" Version="3.1.2-T9QC72V" />
+    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.11-T9QC72V" />
   </ItemGroup>
 </Project>
