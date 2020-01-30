@@ -9,10 +9,5 @@
             Contains the interface that automatically registers message handler types as Transient with the Dependency Injector
             </summary>
         </member>
-        <member name="M:Framework.Cms.Web.Mvc.DependencyInjection.DependencyRegistrations.RegisterDependencies">
-            <summary>
-            Registers the dependencies.
-            </summary>
-        </member>
     </members>
 </doc>
