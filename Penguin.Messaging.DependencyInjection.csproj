@@ -10,7 +10,7 @@
     <DocumentationFile>Penguin.Messaging.DependencyInjection.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Messaging.Core" Version="5.0.0" />
-    <PackageReference Include="Penguin.DependencyInjection" Version="5.0.0" />
+    <PackageReference Include="Penguin.Messaging.Core" Version="5.0.1-T9ZCSSJ" />
+    <PackageReference Include="Penguin.DependencyInjection" Version="5.0.1-T9ZCSSJ" />
   </ItemGroup>
 </Project>
