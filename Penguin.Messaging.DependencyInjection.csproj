@@ -11,6 +11,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Penguin.Messaging.Core" Version="5.0.4" />
-    <PackageReference Include="Penguin.DependencyInjection" Version="5.0.4" />
+    <PackageReference Include="Penguin.DependencyInjection" Version="5.0.6-TAEO1KM" />
   </ItemGroup>
 </Project>
