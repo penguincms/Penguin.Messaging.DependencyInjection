@@ -10,7 +10,7 @@
             </summary>
         </member>
         <member name="M:Penguin.Messaging.DependencyInjection.DependencyRegistrations.RegisterDependencies(Penguin.DependencyInjection.Abstractions.Interfaces.IServiceRegister)">
-            <inheritdoc/>
+            <inheritdoc />
         </member>
     </members>
 </doc>
