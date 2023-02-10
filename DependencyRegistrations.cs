@@ -1,4 +1,3 @@
-using Penguin.DependencyInjection.Abstractions.Enums;
 using Penguin.DependencyInjection.Abstractions.Interfaces;
 using Penguin.DependencyInjection.ServiceProviders;
 using Penguin.Messaging.Abstractions.Interfaces;
@@ -8,16 +7,18 @@ using System;
 using System.Collections.Generic;
 using DependencyEngine = Penguin.DependencyInjection.Engine;
 
-namespace Framework.Cms.Web.Mvc.DependencyInjection
+
+namespace Penguin.Messaging.DependencyInjection
 {
     /// <summary>
     /// Contains the interface that automatically registers message handler types as Transient with the Dependency Injector
     /// </summary>
     public class DependencyRegistrations : IRegisterDependencies
     {
+        /// <inheritdoc/>
+        [Obsolete]
         public void RegisterDependencies(IServiceRegister serviceRegister)
         {
-
             IEnumerable<Type> MessageHandlers = TypeFactory.GetAllImplementations(typeof(IMessageHandler));
 
             MessageBus.SubscribeAll(MessageHandlers);

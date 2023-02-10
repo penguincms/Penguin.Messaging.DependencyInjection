@@ -4,10 +4,13 @@
         <name>Penguin.Messaging.DependencyInjection</name>
     </assembly>
     <members>
-        <member name="T:Framework.Cms.Web.Mvc.DependencyInjection.DependencyRegistrations">
+        <member name="T:Penguin.Messaging.DependencyInjection.DependencyRegistrations">
             <summary>
             Contains the interface that automatically registers message handler types as Transient with the Dependency Injector
             </summary>
+        </member>
+        <member name="M:Penguin.Messaging.DependencyInjection.DependencyRegistrations.RegisterDependencies(Penguin.DependencyInjection.Abstractions.Interfaces.IServiceRegister)">
+            <inheritdoc/>
         </member>
     </members>
 </doc>
