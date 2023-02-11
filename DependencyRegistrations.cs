@@ -7,7 +7,6 @@ using System;
 using System.Collections.Generic;
 using DependencyEngine = Penguin.DependencyInjection.Engine;
 
-
 namespace Penguin.Messaging.DependencyInjection
 {
     /// <summary>
