@@ -2,7 +2,7 @@
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;net7.0</TargetFrameworks>
-    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Messaging.DependencyInjection</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCms/Penguin.Messaging.DependencyInjection</PackageProjectUrl>
     <Version>5.0.5</Version>
     <Description>[Warning: Magic] Provides an implementation of IRegisterDependencies for the Penguin DependencyInjection system, that registers all IMessageHandlers as transient instances so that the Penguin Message Bus can instantiate them in the proper context in order to send messages </Description>
     <AssemblyName>Penguin.Messaging.DependencyInjection</AssemblyName>
