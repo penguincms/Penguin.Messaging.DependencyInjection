@@ -19,7 +19,7 @@ namespace Penguin.Messaging.DependencyInjection
         [Obsolete]
         public void RegisterDependencies(IServiceRegister serviceRegister)
         {
-            IEnumerable<Type> MessageHandlers = TypeFactory.GetAllImplementations(typeof(IMessageHandler));
+            IEnumerable<Type> MessageHandlers = TypeFactory.Default.GetAllImplementations(typeof(IMessageHandler));
 
             MessageBus.SubscribeAll(MessageHandlers);
             foreach (Type messageHandler in MessageHandlers)
